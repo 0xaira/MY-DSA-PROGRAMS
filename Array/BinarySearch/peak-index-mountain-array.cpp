@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int peakIndex( int*arr, int size){
     int start=0;
     int end=size-1;
@@ -15,6 +16,7 @@ int peakIndex( int*arr, int size){
     }
     return arr[start];
 }
+
 int main()
 {
     int size;
