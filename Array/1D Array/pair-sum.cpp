@@ -17,6 +17,7 @@ int main()
 			for (int j = i+1; i < size; i++){
 			      if(arr[i]+arr[j]==key){
                     cout<<arr[i]<<" "<<arr[j]<<endl;
+					cout<<"Okay";
                   }
             
 		}
