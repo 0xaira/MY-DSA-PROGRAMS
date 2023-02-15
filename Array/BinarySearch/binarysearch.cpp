@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-void binarySearch(int arr[], int size, int key)
+void binarySearch(int *arr, int size, int key)
 {
     int start = 0;
     int end = size - 1;
-    int mid = start + (end - start);
+    int mid = start + (end - start)/2;
     while(start<end){
         if(key==arr[mid]){
             cout<<"element found at index"<<endl<<arr[mid-1];
@@ -15,7 +15,7 @@ void binarySearch(int arr[], int size, int key)
         else{
             start=mid+1;
         }
-        mid = start + (end - start);
+        mid = start + (end - start)/2;
     }
     
 }
