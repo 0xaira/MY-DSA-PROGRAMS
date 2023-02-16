@@ -1,22 +1,18 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-bool triplet(int arr[], int size, int key){
-int left;
-int right;
-sort(arr,arr+size);
-for (int i = 0; i < size-2; i++)
+int triplet(int *arr, int size, int key){
+
+sort(*arr.begin(),*arr.end());
+for (int i = 0; i < size; i++)
 	{
-         left=i+1;
-         right=size-1;
+         int left=i+1;
+         int right=size-1;
         
         while(left<right){
             int sum= arr[i]+arr[left]+arr[right];
             if(sum==key){
-                // cout << arr[i] << " " << arr[left] <<" "<<arr[right]<< endl;
-                return true;
-                // left++;
-                // right--;
+                cout << arr[i] << " " << arr[left] <<" "<<arr[right]<< endl;
             }
             else if(sum>0){
                 right--;
@@ -27,7 +23,7 @@ for (int i = 0; i < size-2; i++)
         }
        
     }
-    return false;
+    return 0;
 
 }
 int main()
