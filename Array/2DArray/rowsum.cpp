@@ -1,3 +1,4 @@
+// Row sum in 2D Array
 #include<iostream>
 using namespace std;
 int search(int arr[2][3],int row,int col){
