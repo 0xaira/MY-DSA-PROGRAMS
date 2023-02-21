@@ -51,16 +51,18 @@ using namespace std;
         return ans;
 }
 int main(){
-    int arr[4][4];
     
-	for (int row = 0; row < 4; row++)
+    
+	int arr[3][3];
+    
+	for (int row = 0; row < 3; row++)
 	{
-        for(int col=0; col<4;col++){
+        for(int col=0; col<3;col++){
             cin >> arr[row][col];
         }
 		
 	}
-    spiralOrder(arr,4,4);
+    spiralOrder(arr, 3, 3);
 }
 
         

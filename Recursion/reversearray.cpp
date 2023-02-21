@@ -27,6 +27,7 @@ int main(){
 	{   
         int x;
         cin>>x;
+        ans.push_back(x);
 	}
     reverse(ans,size);
     printArray(ans,size);
