@@ -19,8 +19,7 @@ vector<int> intersectionArray(int *arr1, int s1, int *arr2, int s2){
     }
      for (int i = 0; i < ans.size(); i++) {
     cout << ans[i] << " ";
-  }
-    
+  }   
 }
 int main(){
         int size;
