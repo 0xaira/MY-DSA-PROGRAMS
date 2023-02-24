@@ -26,5 +26,4 @@ int main()
     }
     cout<<peakIndex(arr, size)<<endl;
     
-    
 }
