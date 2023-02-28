@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Base {
-   public : static int val;
+   public : 
+   static int val;
    static int func(int a) {
       cout << "\nStatic member function called";
       cout << "\nThe value of a : " << a;
