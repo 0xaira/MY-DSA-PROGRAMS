@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 bool isPossible(int arr[], int size, int stcount,int mid)
 {
