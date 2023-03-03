@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <bits/stdc++.h>
 
 int peakIndex( int*arr, int size){
     int start=0;
