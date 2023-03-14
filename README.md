@@ -71,7 +71,7 @@
         - [N-Knights](https://youtu.be/nC1rbW2YSz0?t=2342)
         - [Sudoku Solver](https://youtu.be/nC1rbW2YSz0?t=3190)
         - [Maze problems](https://www.youtube.com/watch?v=zg5v2rlV1tM)
-    - [Recursion String Problems](https://youtu.be/gdifkIwCJyg)
+    - [Recursion String Problems]
     - [Recursion Google, Amazon Questions]
     - [Recursion Array Problems]
     - [Recursion Pattern Problems]
