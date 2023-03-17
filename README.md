@@ -81,7 +81,7 @@
     - [Comparisons of various cases](https://youtu.be/mV3wrLBbuuE?t=1039)
     - [Solving Linear Recurrence Relations](https://youtu.be/mV3wrLBbuuE?t=6252)
     - [Solving Divide and Conquer Recurrence Relations](https://youtu.be/mV3wrLBbuuE?t=4609)
-    - [Big-O, Big-Omega, Big-Theta Notations](https://youtu.be/mV3wrLBbuuE?t=2271)
+    - [Big-O, Big-Omega, Big-Theta Notations]
     - [Little Notations]
     - [Get equation of any relation easily - best and easiest approach](https://youtu.be/mV3wrLBbuuE?t=8189)
     - [Complexity discussion of all the problems we do](https://youtu.be/mV3wrLBbuuE?t=3866)
