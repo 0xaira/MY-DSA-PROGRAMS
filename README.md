@@ -83,7 +83,7 @@
     - [Solving Divide and Conquer Recurrence Relations](https://youtu.be/mV3wrLBbuuE?t=4609)
     - [Big-O, Big-Omega, Big-Theta Notations]
     - [Little Notations]
-    - [Get equation of any relation easily - best and easiest approach](https://youtu.be/mV3wrLBbuuE?t=8189)
+    - [Get equation of any relation easily - best and easiest approach]
     - [Complexity discussion of all the problems we do]
     - [Space Complexity]
     - [NP-Completeness Introduction]
