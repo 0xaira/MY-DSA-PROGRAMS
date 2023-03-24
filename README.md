@@ -80,7 +80,7 @@
     - [Introduction](https://youtu.be/mV3wrLBbuuE)
     - [Comparisons of various cases](https://youtu.be/mV3wrLBbuuE?t=1039)
     - [Solving Linear Recurrence Relations](https://youtu.be/mV3wrLBbuuE?t=6252)
-    - [Solving Divide and Conquer Recurrence Relations](https://youtu.be/mV3wrLBbuuE?t=4609)
+    - [Solving Divide and Conquer Recurrence Relations]
     - [Big-O, Big-Omega, Big-Theta Notations]
     - [Little Notations]
     - [Get equation of any relation easily - best and easiest approach]
