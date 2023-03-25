@@ -78,8 +78,8 @@
     - [Subset Questions](https://youtu.be/9ByWqPzfXDU)
 - [Space and Time Complexity Analysis](https://youtu.be/mV3wrLBbuuE)
     - [Introduction](https://youtu.be/mV3wrLBbuuE)
-    - [Comparisons of various cases](https://youtu.be/mV3wrLBbuuE?t=1039)
-    - [Solving Linear Recurrence Relations](https://youtu.be/mV3wrLBbuuE?t=6252)
+    - [Comparisons of various cases]
+    - [Solving Linear Recurrence Relations]
     - [Solving Divide and Conquer Recurrence Relations]
     - [Big-O, Big-Omega, Big-Theta Notations]
     - [Little Notations]
