@@ -74,8 +74,8 @@
     - [Recursion String Problems](https://youtu.be/gdifkIwCJyg)
     - [Recursion Google, Amazon Questions](https://youtu.be/9ByWqPzfXDU)
     - [Recursion Array Problems](https://youtu.be/sTdiMLom00U)
-    - [Recursion Pattern Problems](https://youtu.be/ymgnIIclCF0)
-    - [Subset Questions](https://youtu.be/9ByWqPzfXDU)
+    - [Recursion Pattern Problems]
+    - [Subset Questions]
 - [Space and Time Complexity Analysis]
     - [Introduction]
     - [Comparisons of various cases]
