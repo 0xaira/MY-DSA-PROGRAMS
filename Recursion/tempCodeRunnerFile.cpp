@@ -1,30 +1,24 @@
-void reverse(vector<int> ans, int n,int i){
-    if(i>=n/2){
-        return;
-    }
-    swap(ans[i],ans[n-1-i]);
-    reverse(ans,n,i+1);
-}
-void printArray(vector<int> ans, int size)
+#include <iostream>
+using namespace std;
+int fib(int n)
 {
-    for (int i = 0; i < size; i++)
+    if (n == 0)
     {
-        cout << ans[i] << " ";
+        return 0;
     }
-    cout << endl;
+
+    if (n == 1)
+    {
+        return 1;
+    }
+
+    int b = fib(n - 1) + fib(n - 2);
+    return b;
 }
-int main(){
-    vector<int> ans;
-    int size;
-    cin>>size;
-	
-	for (int i = 0; i < size; i++)
-	{   
-        int x;
-        cin>>x;
-        ans.push_back(x);
-	}
-    int i=0;
-    reverse(ans,size,i);
-    printArray(ans,size);
+int main()
+{
+    int n;
+    cin >> n;
+    int ans = fib(n);
+    cout << ans;
 }
