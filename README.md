@@ -86,7 +86,7 @@
     - [Get equation of any relation easily - best and easiest approach](https://youtu.be/mV3wrLBbuuE?t=8189)
     - [Complexity discussion of all the problems we do](https://youtu.be/mV3wrLBbuuE?t=3866)
     - [Space Complexity](https://youtu.be/mV3wrLBbuuE?t=3330)
-    - [NP-Completeness Introduction](https://youtu.be/mV3wrLBbuuE?t=8695)
+    - [NP-Completeness Introduction]
 - [Object Oriented Programming]
     - [Introduction]
     - [Classes & its instances]
