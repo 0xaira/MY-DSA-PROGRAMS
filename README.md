@@ -1,5 +1,5 @@
 ## Roadmap
-- [Complete Git & GitHub Course](https://youtu.be/apGV9Kg7ics)
+- [Complete Git & GitHub Course]
 - [Introduction to Programming](https://youtu.be/wn49bJOYAZM)
     - [Types of languages](https://youtu.be/wn49bJOYAZM?t=171)
     - [Memory management](https://youtu.be/wn49bJOYAZM?t=1488)
@@ -87,7 +87,7 @@
     - [Complexity discussion of all the problems we do](https://youtu.be/mV3wrLBbuuE?t=3866)
     - [Space Complexity](https://youtu.be/mV3wrLBbuuE?t=3330)
     - [NP-Completeness Introduction](https://youtu.be/mV3wrLBbuuE?t=8695)
-- [Object Oriented Programming](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)
+- [Object Oriented Programming]
     - [Introduction]
     - [Classes & its instances]
     - [this keyword in Java]
