@@ -3,47 +3,76 @@
 using namespace std;
 
 class Stack{
-    int *arr;
-    int nextIndex;
-    int capacity;
     public:
-    Stack(){
-        capacity=4;
-        arr=new int[capacity];
-        nextIndex=0;
-    }
-    int size(){
-        return nextIndex;
-    }
-    bool isEmpty(){
-        return nextIndex==0;
+    int * arr;
+    int top;
+    int size;
+    Stack(int size){
+        arr=new int[size];
+        top=-1;
+        this->size=size;
     }
     void push(int element){
-        if(nextIndex==capacity){
-            int *newArr=new int[2*capacity];
-            for(int i=0;i<capacity;i++){
-                newArr[i]=arr[i];
-            }
-            capacity*=2;
-            delete [] arr;
-            arr=newArr;
+        if(size-top>1){
+            top++;
+            arr[top]=element;
         }
-        arr[nextIndex]=element;
-        nextIndex++;
+        else{
+            cout<<"Stack Overflow"<<endl;
+        }
     }
-    int pop(){
-        if(isEmpty()){
-            cout<<"Stack is Empty"<<endl;
-            return INT_MIN;
+
+    void pop(){
+        if(top==-1){
+            cout<<"Stack Underflow"<<endl;
         }
-        nextIndex--;
-        return arr[nextIndex];
+        else{
+            top--;
+        }
     }
-    int top(){
-        if(isEmpty()){
+
+    int Top(){
+        if(top==-1){
             cout<<"Stack is Empty"<<endl;
-            return INT_MIN;
+            return -1;
         }
-        return arr[nextIndex-1];
+        else{
+            return arr[top];
+        }
+    }
+
+    int sizeOfStack(){
+        return top+1;
+    }
+
+    bool isEmpty(){
+        if(top==-1){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    void printStack(){
+        for(int i=0;i<=top;i++){
+            cout<<arr[i]<<" ";
+        }
+        cout<<endl;
     }
 };
+
+int main()
+{
+    Stack s(5);
+    s.push(10);
+    s.push(20);
+    s.push(30);
+    s.printStack();
+    cout<<s.Top()<<endl;
+    s.pop();
+    cout<<s.Top()<<endl;
+    cout<<s.sizeOfStack()<<endl;
+    cout<<s.isEmpty()<<endl;
+    s.printStack();
+}
