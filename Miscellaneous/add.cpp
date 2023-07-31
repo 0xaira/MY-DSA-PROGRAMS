@@ -1,9 +1,20 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-    int x=97;
-    int y=81;
-    int z=74;
-    int res=(x+y+z)+(x++)+(++y)+(++z)+(x+y)+(++x)+(y++)+(--z)+(y+z)+(z+x)+(x+y+z)+(--z)-z-y-x;
-    cout<<res;
+void Solve(stack<int> &inputStack, int N, int count)
+{
+    if (count == N / 2)
+    {
+        inputStack.pop();
+        return;
+    }
+    int flag = inputStack.top();
+    inputStack.pop();
+    Solve(inputStack, N, count + 1);
+    inputStack.push(flag);
 }
+void deleteMiddle(stack<int> &inputStack, int N)
+{
+    int count = 0;
+    Solve(inputStack, N, count);
+}
+

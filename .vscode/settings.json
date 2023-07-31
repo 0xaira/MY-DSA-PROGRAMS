@@ -1,11 +1,13 @@
 {
-    "files.associations": {
-        "xutility": "cpp",
-        "iostream": "cpp",
-        "utility": "cpp",
-        "xstring": "cpp",
-        "chrono": "cpp",
-        "vector": "cpp",
-        "algorithm": "cpp"
-    }
+  "files.associations": {
+    "xutility": "cpp",
+    "iostream": "cpp",
+    "utility": "cpp",
+    "xstring": "cpp",
+    "chrono": "cpp",
+    "vector": "cpp",
+    "algorithm": "cpp",
+    "queue": "cpp",
+    "stack": "cpp"
+  }
 }
