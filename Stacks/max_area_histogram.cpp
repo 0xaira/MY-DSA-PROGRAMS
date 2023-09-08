@@ -24,7 +24,8 @@ void solve (int arr[], int N)
         }
         s.push({arr[i],i});
     }
-
+while (!s.empty())
+        s.pop();
     vector<int> right;
     pseudo_index = N;
     for(int i=N-1;i>=0;i--)
