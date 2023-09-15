@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve(int arr[], int N)
+void mah(int arr[], int N)
 {
     stack<pair<int, int>> s;
     vector<int> v;
@@ -55,4 +55,35 @@ void solve(int arr[], int N)
     }
     cout << max_area << endl;
 }
+int solve( int arr[][], int rows, int cols){
+     vector<int> v;
+     for(int i=0;i<cols;i++){
+         v.push_back(arr[0][i]);
+     }
+     int max_area = mah(v, cols);
+        for(int i=1;i<rows;i++){
+            for(int j=0;j<cols;j++){
+                if(arr[i][j]==0){
+                    v[j]=0;
+                }
+                else{
+                    v[j]+=arr[i][j];
+                }
+            }
+            max_area = max(max_area, mah(v, cols));
+        }
+}
 
+
+int main(){
+    int rows, cols;
+    cin >> rows;
+    cin >> cols;
+    int arr[rows][cols];
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            cin >> arr[i][j];
+        }
+    }
+    solve(arr, rows, cols);
+}
